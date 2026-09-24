@@ -30,7 +30,7 @@ export function Sidebar() {
       {/* brand — text on mobile/expanded, hidden when collapsed */}
       <span
         className={cn(
-          "text-sm font-bold tracking-tight px-3 pb-4 hidden md:block",
+          "text-sm font-bold tracking-tight px-3 pb-4 hidden md:block select-none",
           collapsed && "md:hidden"
         )}
       >

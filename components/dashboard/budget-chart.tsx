@@ -19,7 +19,7 @@ export function BudgetChart({ data }: Props) {
   if (data.length === 0) return null;
 
   return (
-    <div className="rounded-lg border border-border bg-card p-4">
+    <div className="rounded-lg border border-border bg-card p-4 select-none">
       <h2 className="font-heading text-sm font-semibold mb-4">
         Alokasi vs Pengeluaran
       </h2>

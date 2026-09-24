@@ -71,7 +71,7 @@ export function ExpenseForm({ expense, onDone }: Props) {
   });
 
   return (
-    <form onSubmit={onSubmit} className="space-y-4">
+    <form onSubmit={onSubmit} className="space-y-4 select-none">
       <Field.Root>
         <div className="space-y-2">
           <Label htmlFor="category">Kategori</Label>

@@ -31,7 +31,7 @@ type Props = {
 
 export function SummaryCards({ allocated, remaining }: Props) {
   return (
-    <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
+    <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 select-none">
       {BUCKETS.map(({ key, label, percent, icon: Icon }) => {
         const alloc = allocated[key];
         const remain = remaining[key];

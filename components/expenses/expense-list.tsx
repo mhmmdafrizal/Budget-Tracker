@@ -34,7 +34,7 @@ export function ExpenseList({ expenses }: Props) {
 
   if (expenses.length === 0) {
     return (
-      <div className="flex flex-col items-center justify-center rounded-lg border border-dashed border-border p-12 text-center">
+      <div className="flex flex-col items-center justify-center rounded-lg border border-dashed border-border p-12 text-center select-none">
         <Receipt size={40} className="text-muted-foreground mb-3" />
         <h3 className="text-sm font-semibold text-foreground mb-1">
           Belum ada pengeluaran

@@ -51,7 +51,7 @@ export default function SignInPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-primary/10 via-background to-primary/5 flex items-center justify-center p-6">
+    <div className="min-h-screen bg-gradient-to-br from-primary/10 via-background to-primary/5 flex items-center justify-center p-6 select-none">
       <Card className="w-full max-w-md border border-border/40 shadow-lg bg-card/95 backdrop-blur-sm">
         <CardHeader className="space-y-1 text-center">
           <CardTitle className="text-3xl font-bold tracking-tight bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
@@ -60,7 +60,7 @@ export default function SignInPage() {
           <CardDescription className="text-muted-foreground">
             {isRegister
               ? "Daftar untuk mulai mengelola budget dengan metode 50-30-20"
-              : "Masuk ke akun BuildWithAngga Budget Tracker kamu"}
+              : "Masuk ke akun Budget Tracker kamu"}
           </CardDescription>
         </CardHeader>
 

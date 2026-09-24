@@ -16,7 +16,7 @@ export default async function BudgetPage() {
   }
 
   return (
-    <div className="flex flex-col gap-6 max-w-2xl">
+    <div className="flex flex-col gap-6 max-w-2xl select-none">
       <header>
         <h1 className="font-heading text-2xl font-bold tracking-tight">Budget</h1>
         <p className="text-sm text-muted-foreground">
@@ -32,7 +32,7 @@ export default async function BudgetPage() {
       </div>
 
       {budget && (
-<div className="rounded-lg border border-border bg-card p-5">
+        <div className="rounded-lg border border-border bg-card p-5">
           <h2 className="font-heading text-sm font-semibold mb-4">
             Ringkasan · {formatIDR(Number(budget.monthlyIncome))}/bulan
           </h2>

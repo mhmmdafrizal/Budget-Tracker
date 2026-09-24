@@ -59,7 +59,7 @@ export function BudgetForm() {
   });
 
   return (
-    <form onSubmit={onSubmit} className="space-y-5">
+    <form onSubmit={onSubmit} className="space-y-5 select-none">
       <Field.Root>
         <div className="space-y-2">
           <Label htmlFor="income">Pendapatan Bulanan (take-home)</Label>

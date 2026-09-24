@@ -1,6 +1,6 @@
 export default function BudgetLoading() {
   return (
-    <div className="flex flex-col gap-6 max-w-2xl animate-pulse">
+    <div className="flex flex-col gap-6 max-w-2xl animate-pulse select-none">
       <header>
         <div className="h-7 w-28 rounded-lg bg-muted" />
         <div className="mt-2 h-4 w-72 rounded-lg bg-muted" />
