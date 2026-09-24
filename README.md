@@ -2,6 +2,10 @@
 
 App untuk mengelola budget bulanan dengan metode **50-30-20** (Kebutuhan 50%, Keinginan 30%, Tabungan 20%).
 
+## Screenshot
+
+![Desktop Mode](./public/screenshots/Screenshot.png)
+
 ## Fitur
 
 - Autentikasi email & password (better-auth) dengan proteksi route
